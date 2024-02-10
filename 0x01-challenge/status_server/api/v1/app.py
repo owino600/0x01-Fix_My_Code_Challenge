@@ -4,7 +4,7 @@ Web server
 """
 from api.v1.views import app_views
 from flask import Flask, jsonify, make_response
-from werkzeug.urls import url_quote
+from werkzeug.urls import quote
 
 app = Flask(__name__)
 app.register_blueprint(app_views)
