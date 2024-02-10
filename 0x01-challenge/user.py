@@ -9,9 +9,9 @@ class User():
         """ Documentation """
         self.__email = None
         
-        @property
-        def email(self):
-            return self.__email
+    @property
+    def email(self):
+        return self.__email
         
     @email.setter
     def email(self, value):
